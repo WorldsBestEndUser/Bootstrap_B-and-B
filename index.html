@@ -6,10 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="contact.html" rel="stylesheet">
     <link href="bootstrap-5.3.3/css/bootstrap.min.css" rel="stylesheet">
-    <link href="bootstrap-5.3.3/js/bootstrap.bundle.min.js" rel="stylesheet">
-
+    <link href="styles.css" rel="stylesheet">
+    <script src="bootstrap-5.3.3/js/bootstrap.bundle.min.js"></script>
 
     <title>Windsor Cottage | Home</title>
 
@@ -54,47 +53,57 @@
 
     </header>
 
-    <div id="carouselExampleFade" class="carousel slide carousel-fade">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="images/1_Exterior.jpg" class="d-block w-100" alt="Image: Exterior">
-          </div>
-          <div class="carousel-item">
-            <img src="images/2_Bedroom.jpg" class="d-block w-100" alt="Image: Bedroom">
-          </div>
-          <div class="carousel-item">
-            <img src="images/3_Dining.jpg" class="d-block w-100" alt="Image: Dining">
-          </div>
+    <div class="container_sep">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner shadow p-3 mb-5 bg-body-tertiary rounded">
+            <div class="carousel-item active">
+                <img src="images/1_Exterior.jpg" class="d-block w-100" alt="Image: Exterior">
+            </div>
+            <div class="carousel-item">
+                <img src="images/2_Bedroom.jpg" class="d-block w-100" alt="Image: Bedroom">
+            </div>
+            <div class="carousel-item">
+                <img src="images/3_Dining.jpg" class="d-block w-100" alt="Image: Dining">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-    </div>
 
-    <div class="card" style="width: 18rem;">
-        <img src="images/Card1.jpg" class="card-img-top" alt="Rooms">
-        <div class="card-body">
-            This is some text within a card body.
-        </div>
-    </div>
+        
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
+                <a href="#"><img src="images/Card1.jpg" class="card-img-top" alt="Rooms"></a>
+                <div class="card-body">
+                  <h5 class="card-title center_sep">Rooms</h5>
+                 </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
+                <a href="#"><img src="images/Card2.jpg" class="card-img-top" alt="Breakfast Menu"></a>
+                <div class="card-body">
+                  <h5 class="card-title center_sep">Breakfast Menu</h5>
+                  </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
+                <a href="#"><img src="images/Card3.jpg" class="card-img-top" alt="Local Activities"></a>
+                <div class="card-body">
+                  <h5 class="card-title center_sep">Local Activities</h5>
+                 </div>
+              </div>
+            </div>
+          </div>
 
-    <div class="card" style="width: 18rem;">
-        <img src="images/Card2.jpg" class="card-img-top" alt="Breakfast Menu">
-        <div class="card-body">
-            This is some text within a card body.
-        </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-        <img src="images/Card3.jpg" class="card-img-top" alt="Local Activities">
-        <div class="card-body">
-            This is some text within a card body.
-        </div>
     </div>
 
     <footer>

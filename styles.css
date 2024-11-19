@@ -1,0 +1,14 @@
+body {
+    background-color: #CAC0B2
+}
+
+.container_sep {
+    width: 60%;
+    margin: 25px auto;
+}
+
+.center_sep {
+    padding: none;
+    text-align: center;
+}
+
