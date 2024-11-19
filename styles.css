@@ -12,3 +12,15 @@ body {
     text-align: center;
 }
 
+.contact-page_sep {
+    width: 85%;
+    margin: 25px auto;
+}
+
+@media screen and (max-width: 768px) {
+
+    #carouselExampleFade {
+        display: none;
+    }
+
+}

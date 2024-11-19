@@ -17,7 +17,7 @@
 <body>
 
     <header>
-        
+
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
@@ -31,7 +31,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">&nbsp;&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a class="nav-link"
+                                href="index.html">&nbsp;&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;&nbsp;</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">&nbsp;&nbsp;&nbsp;&nbsp;Amenities&nbsp;&nbsp;&nbsp;&nbsp;</a>
@@ -40,7 +41,8 @@
                             <a class="nav-link" href="#">&nbsp;&nbsp;&nbsp;&nbsp;About&nbsp;&nbsp;&nbsp;&nbsp;</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">&nbsp;&nbsp;&nbsp;&nbsp;Contact&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a class="nav-link"
+                                href="contact.html">&nbsp;&nbsp;&nbsp;&nbsp;Contact&nbsp;&nbsp;&nbsp;&nbsp;</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -49,32 +51,63 @@
                     </form>
                 </div>
             </div>
-        </nav>        
+        </nav>
 
     </header>
 
-    <div class="container">
-        <form>
-            <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-            </div>
-            <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+    <div class="row contact-page_sep">
+
+        <div class="col container ms-5">
+
+            <form>
+
+                <div class="mb-3">
+                    <label for="firstName" class="form-label">First Name*</label>
+                    <input type="text" class="form-control" id="firstName" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="lastName" class="form-label">Last Name*</label>
+                    <input type="text" class="form-control" id="lastName" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Phone</label>
+                    <input type="tel" class="form-control" id="phone">
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email*</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="textArea" class="form-label">Message*</label>
+                    <textarea name="textArea" class="form-control" id="textArea" required></textarea>
+                </div>
+
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">I would like to receive promotional emails from
+                        Windsor Cottage</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+
+            </form>
+
+        </div>
+
+        <div class="col container ms-5">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d493.18900627013403!2d-0.6391824008383449!3d51.467027393196176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48767b9f2399829b%3A0x99e4599f95a70fe2!2sCrown%20Cottages%2C%20Winkfield%20Rd%2C%20Windsor%20SL4%204BE%2C%20UK!5e0!3m2!1sen!2sus!4v1731988635175!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="shadow p-3 mb-5 bg-body-tertiary rounded"></iframe>
+
+        </div>
+
     </div>
-
-    <footer>
-
-    </footer>
 
 </body>
 
