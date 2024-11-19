@@ -1,5 +1,17 @@
+/*
+    ====================================
+
+    Assignment: Bootstrap B&B
+    Name: Sarah Pasquale
+        
+    FileName: styles.css
+    Last updated: 11/18/2024
+
+    ====================================
+*/
+
 body {
-    background-color: #CAC0B2
+    background-color: #CAC0B2;
 }
 
 .container_sep {
@@ -8,7 +20,6 @@ body {
 }
 
 .center_sep {
-    padding: none;
     text-align: center;
 }
 
